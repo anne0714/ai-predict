@@ -56,6 +56,9 @@ API 成功推論後，將回傳一個 JSON 物件，包含預測結果。
 ```
 
 **錯誤回傳範例 (HTTP 500 Internal Server Error):**
+
+```json
 {
-"message": "Processing failed: [具體錯誤描述，例如圖片格式無效]"
+  "message": "Processing failed: [具體錯誤描述，例如圖片格式無效]"
 }
+```
