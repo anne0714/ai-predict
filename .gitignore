@@ -1,0 +1,20 @@
+# .gitignore
+
+# 虛擬環境
+venv/
+*.DS_Store # macOS
+__pycache__/
+.pytest_cache/
+
+# 數據、模型和結果
+test/
+result.csv
+*.csv
+
+# Python 運行時/日誌
+*.log
+.mypy_cache/
+.vscode/
+
+# Jupyter Notebook 檢查點
+.ipynb_checkpoints
